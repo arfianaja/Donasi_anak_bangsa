@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+}
+body {
+  background-image: url("assets/img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  background: #ab3037;
+  padding: 25px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 300px;
+}
+
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px; /* Menambahkan margin di bawah setiap label */
+  display: block;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  margin: 15px; /* Penyesuaian jarak antara ikon dan input */
+  font-size: 1.2em;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  display: block;
+  margin: 30px auto 10px;
+
+  transition: background-color 0.3s ease, transform 0.3s ease; /* animasi */
+}
+
+button:hover {
+  background-color: #444;
+
+  transform: scale(1.05); /* Zoom in */
+}
+
+.btn1 {
+  align-items: flex-end;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #3498db;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.progress-bar {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background-color: #3498db;
+  height: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  cursor: pointer;
+  color: #f2f2f2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 60px;
+}
+
+.form-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.form-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.don label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.don input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
