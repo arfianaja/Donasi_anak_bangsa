@@ -23,7 +23,7 @@ Aplikasi Donasi Anak Bangsa adalah aplikasi sederhana berbasis PHP native untuk 
 1. Clone repositori ini ke dalam direktori web server Anda.
 
     ```bash
-    git clone https://github.com/username/aplikasi-donasi-anak-bangsa.git
+    git clone https://github.com/arfianaja/Donasi_anak_bangsa.git
     ```
 
 2. Buat database MySQL baru dan import skema yang ada di dalam folder `database`.
@@ -59,11 +59,3 @@ Aplikasi Donasi Anak Bangsa adalah aplikasi sederhana berbasis PHP native untuk 
 4. Pilih metode pembayaran dan lakukan proses pembayaran melalui halaman Midtrans.
 
 5. Setelah pembayaran berhasil, Anda akan diarahkan ke halaman konfirmasi donasi.
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada pengembangan aplikasi ini, silakan buat *pull request* atau laporkan *issue*.
-
-## Lisensi
-
-Aplikasi Donasi Anak Bangsa ini dilisensikan di bawah [MIT License](LICENSE).
